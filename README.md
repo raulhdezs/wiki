@@ -15,7 +15,35 @@
 
 ## Overview
 
-Here I try to documentate all software problems I face with their solution.
+Here I try to documentate the solutions to all software problems I face and interesting packages I found.
+
+## Packages
+
+### htop
+- Description: Free and open source ncurses-based process viewer
+- Install:
+```sh
+   $ sudo apt-get install htop
+```
+### tree
+- Install:
+```sh
+   $ sudo apt-get install tree
+```
+
+### ffmpeg
+- Description: Free and open source software to hanle video, audio, and other multimedia files and streams.
+- Install:
+```sh
+   $ sudo apt-get install ffmpeg
+```
+- Usage:
+  - Create video from file frames:
+```sh
+   $ ffmpeg -framerate 25 -pattern_type glob -i 'frame_*.png' -c:v libx264 -crf 20 -pix_fmt yuv420p -vcodec mpeg4 video.mp4
+```
+
+
 
 ## License
 
