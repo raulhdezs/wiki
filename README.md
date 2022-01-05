@@ -32,7 +32,7 @@ $ sudo apt-get install tree
 ```
 
 ### ffmpeg
-- Description: Free and open source software to hanle video, audio, and other multimedia files and streams.
+- Description: Free and open source software to handle video, audio, and other multimedia files and streams.
 - Install:
 ```sh
 $ sudo apt-get install ffmpeg
