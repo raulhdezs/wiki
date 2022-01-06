@@ -15,7 +15,7 @@
 
 ## Overview
 
-Here I try to document the solutions to all software problems I face and interesting packages I found.
+Here I try to document the solutions to software issues I face as well as interesting utilities.
 
 ## Packages
 
