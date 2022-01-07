@@ -43,6 +43,14 @@ $ sudo apt-get install ffmpeg
 $ ffmpeg -framerate 25 -pattern_type glob -i 'frame_*.png' -c:v libx264 -crf 20 -pix_fmt yuv420p -vcodec mpeg4 video.mp4
 ```
 
+### fd
+- Description: Program to find entries in the filesystem.
+- Install:
+```sh
+$ sudo apt-get install fd-find
+$ ln -s $(which fdfind) ~/.local/bin/fd
+```
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
