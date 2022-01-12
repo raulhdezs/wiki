@@ -108,3 +108,4 @@ gh repo rename [<new-name>] [flags]
 ```
 By default, this renames the current repository.
 
+**Source:** https://cli.github.com/
