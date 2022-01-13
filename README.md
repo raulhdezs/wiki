@@ -31,24 +31,19 @@ $ sudo apt-get install htop
 $ sudo apt-get install tree
 ```
 
-### ffmpeg
-- Description: Free and open source software to handle video, audio, and other multimedia files and streams.
-- Install:
-```sh
-$ sudo apt-get install ffmpeg
-```
-- Usage:
-  - Create video from file frames:
-```sh
-$ ffmpeg -framerate 25 -pattern_type glob -i 'frame_*.png' -c:v libx264 -crf 20 -pix_fmt yuv420p -vcodec mpeg4 video.mp4
-```
-
 ### fd
 - Description: Program to find entries in the filesystem.
 - Install:
 ```sh
 $ sudo apt-get install fd-find
 $ ln -s $(which fdfind) ~/.local/bin/fd
+```
+
+### kazam
+- Description: Simple screen recording program.
+- Install:
+```bash
+sudo apt-get install kazam
 ```
 
 ## License
