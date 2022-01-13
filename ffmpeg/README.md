@@ -2,7 +2,7 @@
 
 Free and open source software to handle video, audio, and other multimedia files and streams.
 
-# Install on LIiux:
+# Install on Linux:
 ```bash
 sudo apt-get install ffmpeg
 ```
