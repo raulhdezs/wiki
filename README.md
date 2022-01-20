@@ -20,7 +20,7 @@ Here I try to document the solutions to software issues I face as well as intere
 ## Packages
 
 ### htop
-- Description: Free and open source ncurses-based process viewer
+- Description: Free and open source ncurses-based process viewer (i.e. to see what's happening with your computer resources).
 - Install:
 ```sh
 $ sudo apt-get install htop
@@ -35,9 +35,10 @@ $ sudo apt-get install tree
 - Description: Program to find entries in the filesystem.
 - Install:
 ```sh
-$ sudo apt-get install fd-find
-$ ln -s $(which fdfind) ~/.local/bin/fd
+sudo apt-get install fd-find
+ln -s $(which fdfind) ~/.local/bin/fd
 ```
+
 
 ### kazam
 - Description: Simple screen recording program.
@@ -45,6 +46,16 @@ $ ln -s $(which fdfind) ~/.local/bin/fd
 ```bash
 sudo apt-get install kazam
 ```
+
+### Homebrew
+- Description: Package manager.
+- Install
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### tldr
+- Description: Simplified man pages
 
 ## License
 
