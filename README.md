@@ -8,6 +8,12 @@
       <a href="#overview">Overview</a>
     </li>
     <li>
+      <a href="#useful commands">Useful commands</a>
+    </li>
+    <li>
+      <a href="#packages">Packages</a>
+    </li>
+    <li>
       <a href="#license">License</a>
     </li>
   </ol>
@@ -16,6 +22,9 @@
 ## Overview
 
 Here I try to document the solutions to software issues I face as well as interesting utilities.
+
+## Useful commands
+
 
 ## Packages
 
