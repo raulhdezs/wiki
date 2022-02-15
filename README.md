@@ -1,30 +1,22 @@
 # Personal wiki
 
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#overview">Overview</a>
-    </li>
-    <li>
-      <a href="#useful commands">Useful commands</a>
-    </li>
-    <li>
-      <a href="#packages">Packages</a>
-    </li>
-    <li>
-      <a href="#license">License</a>
-    </li>
-  </ol>
-</details>
-
 ## Overview
 
-Here I try to document the solutions to software issues I face as well as interesting utilities.
+Here I try to document everything I learn using Ubuntu.
 
 ## Useful commands
-
+### date
+- Description: Print or set the system date and time
+- Example of use: Print current date in YYYY-MM-DD format
+```sh
+date +%Y-%m-%d
+```
+### mkdir
+- Description: Make directories
+- Example of use: Make directory including date
+```sh
+mkdir $(date +%Y-%m-%d)_directory-name
+```
 
 ## Packages
 
