@@ -1,8 +1,18 @@
 # Personal wiki
 
+## Table of contents
+1. [Overview](#overview)  
+2. [Useful commands](#commands)  
+3. [Packages](#packages)  
+4. [License](#license)  
+
+<a name="overview"/>
+
 ## Overview
 
 Here I try to document everything I learn using Ubuntu.
+
+<a name="commands"/>
 
 ## Useful commands
 ### date
@@ -17,6 +27,8 @@ date +%Y-%m-%d
 ```sh
 mkdir $(date +%Y-%m-%d)_directory-name
 ```
+
+<a name="packages"/>
 
 ## Packages
 
@@ -57,6 +69,8 @@ sudo apt-get install kazam
 
 ### tldr
 - Description: Simplified man pages
+
+<a name="license"/>
 
 ## License
 
