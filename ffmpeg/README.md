@@ -18,7 +18,7 @@ Here the options mean:
 - `-vf [filtergraph]` Create the filtergraph specified by filtergraph and use it to filter the stream.
 - `-vf "pad=ceil(iw/2)*2:ceil(ih/2)*2"` Ensure dimensions are even as needed by libx264
 - `-vcodec libx264` Set the video codec to libx264 (compatible with QuickTime)
-- `-pix_fmt yuv420` Set pixel format
+- `-pix_fmt yuv420p` Set pixel format for macOS compatibility
 - `-s [width]x[height]` Set frame size
 
 ## Cut video
