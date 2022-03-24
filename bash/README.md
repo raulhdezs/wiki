@@ -9,3 +9,7 @@
 ```bash
 find . -type f ! -newermt 'mm/dd/yyyy hh:mm:ss' -exec rm -f {} \;
 ```
+## Remove files contaning 'nan'
+```bash
+find path/to/directory -type f -exec egrep -Il 'nan' {} \; | xargs rm -fv
+```
