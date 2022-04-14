@@ -13,3 +13,16 @@ find . -type f ! -newermt 'mm/dd/yyyy hh:mm:ss' -exec rm -f {} \;
 ```bash
 find path/to/directory -type f -exec egrep -Il 'nan' {} \; | xargs rm -fv
 ```
+## Save program output into a text file
+- Run program saving the output into a text file
+```bash
+./run > out.txt
+```
+- Run program saving the output + error messages
+```bash
+./run &> out.txt
+```
+- Run program saving the output + error messages into a file while showing them in console too
+```bash
+./run 2>&1 | tee out.txt
+```
