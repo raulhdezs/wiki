@@ -28,7 +28,7 @@ ffmpeg -ss [start] -i in.mp4 -t [duration] -c copy out.mp4
 ```
 ### Specify end time
 ```bash
-ffmpeg -ss [start] -i in.mp4 -to [end] -c copy -copyts out.mp4
+ffmpeg [-ss start] -i in.mp4 -to HH:MM:SS.sss -c copy -copyts out.mp4
 ```
 
 Here the options mean:
